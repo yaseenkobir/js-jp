@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Volkhov:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+#myDIV {
+  width: 100px;
+  height: 100px;
+  background: red;
+  position: relative;
+  animation: mymove 1s infinite;
+}
+
+@keyframes mymove {
+  from {left: 0px;}
+  to {left: 200px;}
+}
+
+@keyframes mynewmove {
+  from {top: 0px;}
+  to {top: 200px;}
+}
+/*exam16*/
+#mDiv {
+  width: 100px;
+  height: 100px;
+  background: red;
+  position: relative;
+  animation: mymove 5s infinite;
+  animation-delay: 10s;
+}
+
+@keyframes mymove {
+  from {left: 0px;}
+  to {left: 200px;}
+}
+/*exam17*/
+#bclip {
+  width: 300px;
+  height: 300px;
+  padding: 50px;
+  background-color: coral;
+  background-clip: border-box;
+  color: white;
+  border: 5px dotted lightgrey;
+}
+/*exam19*/
+#bs {
+  border: 1px solid black;
+  width: 300px;
+  height: 300px;
+  background: url('on.gif') no-repeat;
+}
+/*exam20*/
+#bf{
+  width: 100px;
+  height: 100px;
+  background: red;
+  color: white;
+  animation: mymove 2s infinite linear alternate;
+}
+
+@keyframes mymove {
+  to {transform: rotateY(180deg);}
+}
+/*exam22*/
+
+#cbbr {
+  border: 1px solid black;
+  width: 300px;
+  height: 300px;
+}

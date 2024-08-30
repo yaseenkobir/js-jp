@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>js/jq</title>
+	<link rel="stylesheet"  href="css/bootstrap.css">
+	<link rel="stylesheet"  href="css/style.css">
+	<link rel="stylesheet"  href="css/media.css">
+</head>
+<body>
+	<div class="container">
+		<!-- ex1 -->
+		<h2 class="text-danger">Click the button change the text</h2>
+		<button onclick="textChange()" type="button" class="btn btn-dark">textchange</button>
+		<h3 id="tc">Lorem, ipsum.</h3>
+	
+	<!-- ex2 --><hr>
+		<h2 class="text-danger">Click the button show the date</h2>
+		<button onclick="showDate()" type="button" class="btn btn-dark">ShowDate</button>
+		<h3 id="sd">The date is</h3>
+
+	<!-- ex3 --><hr>
+	     <h2 class="text-danger">Click the button to on/off the bulb</h2>
+	     <button onclick="bulbOn()" class="btn btn-success">bulbOn</button>
+	     <button onclick="bulbOff()" class="btn btn-dark">bulbOff</button>
+	     <img id="bulb" src="images/off.gif" alt="">
+
+    <!-- ex4 --><hr>
+	     <h2 class="text-danger">Click the button to change the smile</h2>
+	     <button onclick="Smile()" class="btn btn-success">Smile</button>
+		 <button onclick="Sad()" class="btn btn-dark">Sad</button>
+		 <img id="logo" src="images/smile.png" alt="">
+
+	<!-- ex5 --><hr>
+	    <h2 class="text-danger">Click the button to change the text color</h2>
+	    <button onclick="changeCss()" class="btn btn-dark">change Css</button>
+	    <h3 id="cc">Lorem ipsum, dolor sit amet.</h3>
+
+    <!-- ex6 --><hr>
+	    <h2 class="text-danger">Click the button to show/hide the content</h2>
+	    <button onclick="textShow()" class="btn btn-dark">show</button>
+	    <button onclick="textHide()" class="btn btn-danger">hide</button>
+	    <h3 id="tsh">Lorem ipsum dolor sit, amet.</h3>
+    <!-- ex7 --><hr>
+         <h2 class="text-danger">Click the button to show the content size</h2>
+         <button onclick="fontSize()" class="btn btn-dark">font Size</button>
+         <h3 id="fz">Lorem ipsum dolor, sit amet.</h3>
+
+    <!-- ex8 --><hr>
+         <h2 class="text-danger">Click the button to change the man</h2>
+	     <button onclick="sitDown()" class="btn btn-success">sitdown</button>
+		 <button onclick="standUp()" type="button" class="btn btn-dark">standup</button>
+		 <img id="man" src="images/stanup.png" alt="">
+
+    <!-- ex9 --><hr>
+         <h2 class="text-danger">Click the number to show the result</h2>
+         <button onclick="demoResult()" type="button" class="btn btn-dark">5+5</button>
+         <h3 id="dr">The Result</h3>
+
+    <!-- ex10 --><hr>
+         <h2 class="text-danger">Click the number to show the result</h2>
+         <button onclick="demoResult1()" type="button" class="btn btn-dark">10.50</button>
+         <h3 id="dr1">The Result</h3>
+
+    <!-- ex11 --><hr>
+        <h2 class="text-danger">Click and show the result x is assigned the value of 6.</h2>
+        <button onclick="showValue()" type="button" class="btn btn-dark">x=6</button>
+        <h3 id="ex">The Result</h3>
+    
+   <!-- ex12 --><hr>
+        <h2 class="text-danger">Click the button to show the result</h2>
+        <button onclick="resultShow()" type="button" class="btn btn-dark">(5 + 6)*10</button>
+        <h3 id="rs">The Result</h3>
+
+   <!-- ex13 --><hr>
+        <h2 class="text-danger">Click the button to show the result</h2>
+        <button onclick="resultShow1()" type="button" class="btn btn-dark">5 * 10</button>
+        <h3 id="rs1">The Result</h3>
+
+    <!-- ex14 --><hr>
+        <h2 class="text-danger">Click the button to show the result</h2>
+        <button onclick="resultShow2()" type="button" class="btn btn-dark">x * 20</button>
+        <h3 id="rs2">The Result</h3>
+
+    <!-- ex15 --><hr>
+        <h2 class="text-danger">Click the button to show the result</h2>
+        <button onclick="resultShow3()" type="button" class="btn btn-dark">x * 50</button>
+        <h3 id="rs3">The Result</h3>
+
+    <!-- ex16 --><hr>
+        <h2 class="text-danger">click the button to change the background color</h2>
+		<button onclick="changeBgc()" type="button"class="btn btn-dark">change background color</button>
+		<h3 id="fbcg">hello</h3>
+
+	<!-- ex17 --><hr>
+		<h2 class="text-danger">click the button to show/hide a picture </h2>
+
+		<button onclick="picShow()" type="button" class="btn btn-success">show</button>
+		<button onclick="picHide()" type="button"
+		class="btn btn-danger">hide</button>
+		 <img id="sc" src="images/g1.png">
+
+    <!-- ex18 --><hr>
+        <h2 class="text-danger">click the button to show/hide the background color </h2>
+
+		<button onclick="show()" type="button" class="btn btn-success">show</button>
+		<button onclick="hide()" type="button"
+		class="btn btn-danger">hide</button>
+
+		<h3 id="scbs">hello</h3>
+		
+	<!-- ex19 --> <hr>
+	    <h2 class="text-danger">click the button for border </h2>
+
+		<button onclick="changeBorder()" type="button"class="btn btn-dark">change border</button>
+		<h3 id="cb">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure</h3>
+
+	<!-- ex20 --><hr>
+	    <h2 class="text-danger">click the button to show/hide the border </h2>
+		<button onclick="bShow()" type="button" class="btn btn-success">show</button>
+		<button onclick="bHide()" type="button"
+		class="btn btn-danger">hide</button>
+
+		<h3 id="bb">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure</h3>
+  
+    <!-- ex21 --><hr>
+        <h2 class="text-danger">click the button to align the content </h2>
+
+		<button onclick="alignItem()" type="button"class="btn btn-dark">center</button>
+		<h3 id="ai">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</h3>
+  
+    <!-- ex22 --><hr>
+        <h2 class="text-danger">click the button to show the background image </h2>
+
+		<button onclick="bcgImg()" type="button"class="btn btn-dark">back image</button>
+		<h3 id="bimg">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodLorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure</h3>
+
+	<!-- ex23 --><hr>
+	   <h2 class="text-danger">click the button to change the animation</h2>
+		<button onclick="ca()" type="button"class="btn btn-dark">try it</button>
+
+
+		<div id="myDIV"></div>
+
+
+	<!-- ex24 --><hr>
+		<h2 class="text-danger">click the button to delay the animation</h2>
+		<button onclick="cda()" type="button"class="btn btn-dark">try it</button>
+		<div id="mDiv"></div>
+
+	<!-- ex25 --><hr>
+        <h2 class="text-danger">click the button to show the background clip </h2>
+
+		<button onclick="bcgClip()" type="button"class="btn btn-dark">try</button>
+		<h3 id="bclip">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodLorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliquaUt enim ad minim veniam
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat Duis aute irure</h3>
+
+    <!-- ex26 --><hr>
+        
+       <h2 class="text-danger">click the button to show the background position </h2>
+
+		<button onclick="bcgPos()" type="button"class="btn btn-dark">try</button>
+
+		<h3 id="bmg" style="
+		background-image:url('images/g3.png');background-repeat:no-repeat;">Lorem ipsum dolor sit amet consectetur adipisicing, elit. Maxime aliquid pariatur obcaecati atque voluptatibus ipsum similique distinctio reiciendis, minima autem ducimus provident nihil recusandae unde quidem assumenda accusantium vel eos ipsam facere quos esse! Ab distinctio totam sint ex consectetur corporis aliquid aspernatur suscipit. Aliquid molestias accusamus dignissimos consequatur maxime.</h3>
+
+
+	<!-- ex27 --><hr>
+        <h2 class="text-danger">click the button to show the background position </h2>
+
+		<button onclick="bcgSize()" type="button"class="btn btn-dark">try</button>
+		<h3 id="bs" style="
+		background-image:url('images/g3.png');background-repeat:no-repeat;">Lorem ipsum dolor sit amet, </h3>
+
+	<!-- ex28 --><hr>
+        <h2 class="text-danger">click the button to show the back face </h2>
+		<div id="bf">
+		  <h1>Hello</h1>
+		</div>
+
+		<input type="checkbox" onclick="myFunction(this)" checked>reveal
+
+     <!-- ex29 --><hr>
+        <h2 class="text-danger">click the button for border bottom </h2>
+
+		<button onclick="changeBot()" type="button"class="btn btn-dark">try</button>
+		<h3 id="cbb">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure</h3>
+
+
+	<!-- ex30 -->
+	   <h2 class="text-danger">click the button for  left border radius </h2>
+
+		<button onclick="changeBor()" type="button"class="btn btn-dark">try</button>
+		<h3 id="cbbr">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco</h3> 
+
+    <!-- ex31 -->
+       
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	</div>
+
+
+
+	<script src="js/bootstrap.bundle.min.js"></script>
+	<script src="js/script.js"></script>
+</body>
+</html>
