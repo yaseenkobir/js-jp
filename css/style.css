@@ -70,3 +70,72 @@
   width: 300px;
   height: 300px;
 }
+/*exam25*/
+
+#cbbw {
+  border: 1px solid black;
+} 
+/*exam30*/
+#cboxs {
+
+  position: relative;
+  width: 250px;
+  height: 250px;
+  background-color: lightslategray;
+  color: white;
+
+}
+
+  /*exam31*/
+  #demo{
+  margin-top: 100px;
+}
+
+ /*exam32*/
+#dem{
+  width: 500px;
+  height: 500px;
+  background-color: lightblue;
+}
+ /*exam33*/
+ #ff{
+  font-size: 30px;
+ }
+  /*exam38*/
+#box {
+  width: 400px;
+  height: 150px;
+  border: 1px solid #000000;
+  display: flex;
+  justify-content: space-around; 
+}
+
+#box div {
+  width: 70px;
+  height: 70px;
+}
+ /*exam40*/
+ #myUL li {
+  background-color: lightblue;
+}
+
+
+
+/*exam42*/
+#mr {
+  border: 1px solid #FF0000;
+}
+
+
+/*exam47*/
+#mh {
+  width: 500px;
+  background-color: lightblue;
+  overflow: auto;
+}
+
+/*exam49*/
+
+p#tdc{
+   text-decoration: underline;
+}

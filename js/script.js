@@ -148,4 +148,114 @@ function changeBot(){
 function changeBor(){
 	document.getElementById('cbbr').style.borderBottomLeftRadius = "25px";
 }
+//ex31
+function changeBots(){
+	document.getElementById('cbbs').style.borderBottom = '2px  dashed red';
+}
 //ex32
+function changeBotw(){
+	document.getElementById('cbbw').style.borderBottomWidth = "10px";
+}
+//ex33
+function changeBorl(){
+	document.getElementById('cbbl').style.borderLeft = " 5px solid";
+}
+//ex34
+function changeBorls(){
+	document.getElementById('cbbls').style.borderLeftStyle = " dashed";
+}
+//ex35
+function changeBorr(){
+	document.getElementById('cbbrrr').style.borderRight = "thick solid";
+}
+//ex36
+function changeBorrrs(){
+	document.getElementById('cbbrrrs').style.borderRightStyle = " dashed";
+}
+//ex37
+function changeBoxs(){
+	document.getElementById('cboxs').style.boxShadow = "10px 20px 30px red";
+}
+//ex38
+function myFunction() {
+  document.getElementById("demo").style.direction = "rtl";
+}
+//ex39
+function myFunction1() {
+  document.getElementById("dem").style.display = "none";
+}
+//ex40
+function myFunction() {
+  document.getElementById("ff").style.fontFamily = "Volkhov, serif";
+}
+//ex41
+function myFunctions() {
+  document.getElementById("fs").style.fontStyle = "italic";
+}
+//ex42
+function myFunctionv() {
+  document.getElementById("fv").style.fontVariant = "small-caps";
+}
+//ex43
+function myFunctionw() {
+  document.getElementById("fw").style.fontWeight = "900";
+}
+//ex44
+function myFunctionb() {
+  document.getElementById("myBtn").style.height = "50px";
+}
+//ex45
+function myFunctionbx() {
+  document.getElementById("box").style.justifyContent = "space-between";
+}
+//ex46
+function myFunctionl() {
+  document.getElementById("myList").style.listStyle = "decimal inside";
+}
+//ex47
+function myFunctionlp() {
+  document.getElementById("myUL").style.listStylePosition = "inside";
+}
+//ex48
+function myFunctionpr() {
+  document.getElementById("myULI").style.listStyleType = "upper-roman";
+}
+//ex49
+function myFunctionm() {
+  document.getElementById("mr").style.margin = "50px 10px 20px 30px";
+}
+//ex50
+function myFunctionmb() {
+  document.getElementById("mb").style.marginBottom = "50px";
+}
+//ex51
+function myFunctionml() {
+  document.getElementById("ml").style.marginLeft = "50px";
+}
+//ex52
+function myFunctionmt() {
+  document.getElementById("mt").style.marginTop = "50px";
+}
+//ex53
+function myFunctiontd() {
+  document.getElementById("td").style.textDecoration = "underline overline";
+}
+//ex54
+function myFunctiontdc() {
+  document.getElementById("tdc").style.textDecorationColor = "red";
+}
+//ex55
+function myFunctiontt() {
+  document.getElementById("tt").style.textTransform = "capitalize";
+}
+
+
+
+
+/*============== jq ==============*/
+$(document).ready(function(){
+
+	$('#btn').click(function(){
+        alert("Welcome");
+	});
+});
